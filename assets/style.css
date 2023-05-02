@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+header {
+    display: flex;
+    justify-content: left;
+    padding: 30px;
+    text-align: left;
+    background: #87bcee;
+    color: #044868;
+  }
+  header::after {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    content: Journey";
+    color: black;
+  }
+
+
+.background {
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+  
+
+  nav ul {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    position: absolute;
+    flex-wrap: wrap;
+    ;
+    min-width: 300px;
+    color:white;
+  }
+
+  nav a {
+    background-color: unset;
+    color: var(--navlink-color);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+
+  footer {
+    background-color: #044868;
+
+  }
